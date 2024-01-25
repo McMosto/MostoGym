@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Rest of the XML content -->
+    <View
+        android:id="@+id/backColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#d6d7d7" />
+
+    <TextView
+        android:id="@+id/textViewAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MostoGym"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/buttonSignOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="@color/black"
+        android:text="Sign Out"
+        android:textColor="@color/white" />
+
+    <View
+        android:id="@+id/differLine"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_above="@+id/workoutButton"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="454dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/black" />
+
+    <ImageButton
+        android:id="@+id/homeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonSignOut"
+        android:layout_below="@+id/differLine"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toStartOf="@+id/workoutButton"
+        app:srcCompat="@drawable/icons8_gym_50" />
+
+    <ImageButton
+        android:id="@+id/workoutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonSignOut"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        app:srcCompat="@drawable/icons8_workout_50" />
+
+    <ImageButton
+        android:id="@+id/profileButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonSignOut"
+        android:layout_below="@+id/differLine"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toEndOf="@+id/workoutButton"
+        app:srcCompat="@drawable/icons8_muscle_flexing_50" />
+
+    <TextView
+        android:id="@+id/explainHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/homeButton"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginBottom="20dp"
+        android:layout_toStartOf="@+id/explainWorkout"
+        android:text="Back Here" />
+
+    <TextView
+        android:id="@+id/explainWorkout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/workoutButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="New Workout" />
+
+    <TextView
+        android:id="@+id/explainProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/profileButton"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="76dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="20dp"
+        android:layout_toEndOf="@+id/explainWorkout"
+        android:text="Profile" />
+
+    <TextView
+        android:id="@+id/explainPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewAppName"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="33dp"
+        android:textAlignment="center"
+        android:text="Hello and welcome to \n MostoGym \n Here you
+track and save your workout \n  Have fun and keep working out! \n
+Here is a little explanation about the pages \n ↓ " />
+
+
+</RelativeLayout>
+
