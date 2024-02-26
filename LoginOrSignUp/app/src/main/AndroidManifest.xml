@@ -4,6 +4,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -27,7 +28,7 @@
         <activity android:name=".LoginActivity" />
         <activity android:name=".SignUpActivity" />
         <activity android:name="WelcomeActivity"/>
-        <activity android:name="DatabaseHelper"/>
+        <activity android:name="Dataset"/>
         <activity android:name=".WorkoutActivity" />
         <activity android:name=".ProfileActivity" />
     </application>
