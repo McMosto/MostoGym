@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/backColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#d6d7d7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="108dp"
+        android:text="MostoGym"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/backButton"
+        app:layout_constraintStart_toStartOf="@+id/backColor"
+        app:layout_constraintTop_toTopOf="@+id/backColor" />
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="0dp"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="52dp"
+        android:layout_toStartOf="@+id/textViewAppName"
+        app:layout_constraintEnd_toStartOf="@+id/textViewAppName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/backColor"
+        app:srcCompat="?attr/actionModeCloseDrawable"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/FBButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Full Body"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAppName" />
+
+    <Button
+        android:id="@+id/ULButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Upper Lower"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/FBButton" />
+
+    <Button
+        android:id="@+id/PPLButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Push Pull Legs"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ULButton" />
+
+    <Button
+        android:id="@+id/ASButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Arnold Split"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PPLButton" />
+
+    <Button
+        android:id="@+id/NEButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="No Equiqment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ASButton" />
+
+    <Button
+        android:id="@+id/BSButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Bro Split"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NEButton" />
+
+    <TextView
+        android:id="@+id/FBText"
+        android:layout_width="256dp"
+        android:layout_height="485dp"
+        android:layout_marginTop="24dp"
+        android:text="Save time and prevent training plateaus with a full body workout. \n 2 Chest exercises \n 2 Back exercises
+\n 2 Shoulder exercises \n 1 Biceps exercise
+ \n 1 Triceps exercise \n 2 Quads exercises \n 2 Hamstrings exercises \n 1 Glutes
+exercie \n 1 Calves exercise \n 1 Abs exercise \n Every exercise 3-4 sets, 8-12 reps \n 3 times a week"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAppName"
+        android:visibility="invisible"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:elevation="2dp"
+        />
+
+    <TextView
+        android:id="@+id/ULText"
+        android:layout_width="256dp"
+        android:layout_height="485dp"
+        android:layout_marginTop="24dp"
+        android:text="Reach your muscle building goals with this balanced 4 day training \n
+Upper workout: \n
+2 Chest exercises \n 2 Back exercises
+\n 2 Shoulder exercises \n 1 Biceps exercise
+ \n 1 Triceps exercise \n = = = = = = = \n
+Lower workout: \n
+2 Quads exercises \n 2 Hamstrings exercises \n 1 Glutes
+exercie \n 1 Calves exercise \n 1 Abs exercise  \n Every exercise 3-4 sets, 8-12 reps \n 4 times a week"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAppName"
+        android:visibility="invisible"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:elevation="2dp"
+        />
+
+    <TextView
+        android:id="@+id/PPLText"
+        android:layout_width="256dp"
+        android:layout_height="485dp"
+        android:layout_marginTop="24dp"
+        android:text="Build Muscle Mass Using The ‘Push, Pull, Legs’ Method \n
+Push Workout: \n 3 Chest exercises \n 3 Shoulder exercises \n 2 Triceps exercises \n
+Pull Workout: \n 3 Back exercises \n 2 Biceps exercises \n 1 traps exercise \n
+Legs and Abs Workout: \n 2 Quads exercises \n 2 Hamstrings exercises \n 1 Glutes
+exercie \n 1 Calves exercise \n 1 Abs exercise \n Every exercise 3-4 sets, 8-12 reps \n
+3 - 6 times a week"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAppName"
+        android:visibility="invisible"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:elevation="2dp"
+        />
+
+    <TextView
+        android:id="@+id/ASText"
+        android:layout_width="256dp"
+        android:layout_height="485dp"
+        android:layout_marginTop="24dp"
+        android:text="Arnold Blueprint for Mass \n
+Chest and Back Workout: \n 3 Chest exercises \n 3 Back exercises \n
+Shoulders and Arms Workout: \n 3 Shoulder exercises \n 2 Triceps exercises \n 2 Biceps exercises \n 1 Forearm exercise \n
+Legs and Abs Workout: \n 2 Quads exercises \n 2 Hamstrings exercises \n 1 Glutes
+exercie \n 1 Calves exercise \n 1 Abs exercise \n Every exercise 3-4 sets, 8-12 reps \n
+3 - 6 times a week"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAppName"
+        android:visibility="invisible"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:elevation="2dp"
+        />
+
+    <TextView
+        android:id="@+id/NEText"
+        android:layout_width="256dp"
+        android:layout_height="485dp"
+        android:layout_marginTop="24dp"
+        android:text="Workout Everywhere, Everytime! \n
+Choose in exercises 'BodyWeight Only' and then build as a Full Body Workout  \n 2 Chest exercises \n 2 Back exercises
+\n 2 Shoulder exercises \n 1 Biceps exercise
+ \n 1 Triceps exercise \n 2 Quads exercises \n 2 Hamstrings exercises \n 1 Glutes
+exercie \n 1 Calves exercise \n 1 Abs exercise \n Every exercise 3-4 sets, 8-12 reps \n 3 times a week"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAppName"
+        android:visibility="invisible"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:elevation="2dp"
+        />
+
+    <TextView
+        android:id="@+id/BSText"
+        android:layout_width="256dp"
+        android:layout_height="485dp"
+        android:layout_marginTop="24dp"
+        android:text="Focus on Every Muscle with the Bro Split \n
+Chest Day: 4 Chest exercises \n Back Day: 4 Back exercises \n Shoulders Day: 4 Shoulder exercises \n
+Arm Day: 2 Biceps exercises \n 2 Triceps exercises \n 1 Forearm exercise \n
+Leg Day: \n 2 Quads exercises \n 2 Hamstrings exercises \n 1 Glutes
+exercie \n 1 Calves exercise \n 1 Abs exercise \n
+Every exercise 3-4 sets, 8-12 reps \n
+5 times a week"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAppName"
+        android:visibility="invisible"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:elevation="2dp"
+        />
+
+    <ImageButton
+        android:id="@+id/CloseTextButton"
+        android:layout_width="37dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="468dp"
+        android:background="@color/black"
+        android:elevation="3dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.205"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAppName"
+        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel"
+        android:visibility="invisible"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
