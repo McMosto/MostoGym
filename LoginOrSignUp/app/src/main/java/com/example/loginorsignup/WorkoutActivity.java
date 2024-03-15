@@ -19,6 +19,10 @@ public class WorkoutActivity extends AppCompatActivity {
         ImageButton homeButton = findViewById(R.id.homeButton);
         ImageButton workoutButton = findViewById(R.id.workoutButton);
         ImageButton profileButton = findViewById(R.id.profileButton);
+        ImageButton backButton = findViewById(R.id.backButton);
+        Button newWorkoutButton = findViewById(R.id.newWorkoutButton);
+        Button exploreRoutineButton = findViewById(R.id.exploreRoutineButton);
+        Button SearchExerciseButton = findViewById(R.id.SearchExerciseButton);
 
         signOutButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -52,7 +56,36 @@ public class WorkoutActivity extends AppCompatActivity {
                 profile();
             }
         });
+
+        backButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent backIntent = new Intent(WorkoutActivity.this, WelcomeActivity.class);
+                startActivity(backIntent);
+                finish();
+            }
+        });
+
+        exploreRoutineButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent RoutinesIntent = new Intent(WorkoutActivity.this, RoutinesActivity.class);
+                startActivity(RoutinesIntent);
+                finish();
+            }
+        });
+
+        SearchExerciseButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent RoutinesIntent = new Intent(WorkoutActivity.this, WatchExerActivity.class);
+                startActivity(RoutinesIntent);
+                finish();
+            }
+        });
+
     }
+
 
     private void signOut() {
         // Implement your sign-out logic here

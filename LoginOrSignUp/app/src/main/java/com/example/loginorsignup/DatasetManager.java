@@ -9,26 +9,26 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Dataset {
-    private static Dataset instance;
+public class DatasetManager {
+    private static DatasetManager instance;
     private Context context;
     private List<String[]> data;
 
-    private Dataset(Context context) {
+    private DatasetManager(Context context) {
         this.context = context;
         loadData();
     }
 
-    public static Dataset getInstance(Context context) {
+    public static DatasetManager getInstance(Context context) {
         if (instance == null) {
-            instance = new Dataset(context);
+            instance = new DatasetManager(context);
         }
         return instance;
     }
 
     private void loadData() {
         data = new ArrayList<>();
-        InputStream is = context.getResources().openRawResource(R.raw.gymdataset);
+        InputStream is = context.getResources().openRawResource(R.raw.megagymdataset);
         BufferedReader reader = new BufferedReader(new InputStreamReader(is));
         try {
             String line;
@@ -46,6 +46,7 @@ public class Dataset {
             }
         }
     }
+
 
     public List<String[]> getData() {
         return data;

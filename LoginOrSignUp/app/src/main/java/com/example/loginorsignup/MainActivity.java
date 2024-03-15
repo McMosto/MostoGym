@@ -1,17 +1,14 @@
 package com.example.loginorsignup;
 
 import android.content.Intent;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
-import java.io.*;
-import java.net.*;
+
 import java.util.Arrays;
 import java.util.List;
-import java.util.Scanner;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -30,19 +27,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 // Open the login screen
                 Log.d("LoginActivity", "Login button clicked");
-                Dataset dataset = Dataset.getInstance(getApplicationContext());
-                List<String[]> data = dataset.getData();
-                Log.d("DataSet", data.toString());
-                // Print the header
-                if (!dataset.getData().isEmpty()) {
-                    String[] header = dataset.getData().get(0);
-                    System.out.println("Header: " + String.join(",", header));
-                }
-
-                // Print the data
-                for (int i = 1; i < dataset.getData().size(); i++) {
-                    System.out.println(Arrays.toString(dataset.getData().get(i))); };
-                Intent loginIntent = new Intent(MainActivity.this, LoginActivity.class);
+                Intent loginIntent = new Intent(MainActivity.this, WorkoutActivity.class);
                 startActivity(loginIntent);
                 finish();
             }

@@ -28,9 +28,11 @@
         <activity android:name=".LoginActivity" />
         <activity android:name=".SignUpActivity" />
         <activity android:name="WelcomeActivity"/>
-        <activity android:name="Dataset"/>
+        <activity android:name=".DatasetManager"/>
         <activity android:name=".WorkoutActivity" />
         <activity android:name=".ProfileActivity" />
+        <activity android:name=".RoutinesActivity" />
+        <activity android:name=".WatchExerActivity" />
     </application>
 
 </manifest>
