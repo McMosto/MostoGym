@@ -1,0 +1,118 @@
+[
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-merged_res-31:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-main-33:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-merged_res-31:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-main-33:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-merged_res-31:\\drawable_icons8_gym_50.png.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-main-33:\\drawable\\icons8_gym_50.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-merged_res-31:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-main-33:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-merged_res-31:\\layout_activity_welcome.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-main-33:\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-merged_res-31:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-main-33:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-merged_res-31:\\drawable_icons8_workout_50.png.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-main-33:\\drawable\\icons8_workout_50.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-merged_res-31:\\layout_activity_workout.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-main-33:\\layout\\activity_workout.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-merged_res-31:\\drawable_icons8_muscle_flexing_50.png.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-main-33:\\drawable\\icons8_muscle_flexing_50.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-main-33:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-merged_res-31:\\xml_gymdataset.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-main-33:\\xml\\gymdataset.xml"
+    },
+    {
+        "merged": "com.example.loginorsignup.app-merged_res-31:/raw_gymdataset.csv.flat",
+        "source": "com.example.loginorsignup.app-main-33:/raw/gymdataset.csv"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-merged_res-31:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-main-33:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-merged_res-31:\\drawable_icons8_home_50.png.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-main-33:\\drawable\\icons8_home_50.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-main-33:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-merged_res-31:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-main-33:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-merged_res-31:\\layout_activity_profile.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-main-33:\\layout\\activity_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-merged_res-31:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-main-33:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-merged_res-31:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-main-33:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-merged_res-31:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-main-33:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-main-33:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-main-33:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-merged_res-31:\\raw_gymdataset.csv.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-main-33:\\raw\\gymdataset.csv"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-merged_res-31:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-main-33:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-merged_res-31:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-main-33:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-merged_res-31:\\layout_activity_signup.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-main-33:\\layout\\activity_signup.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-merged_res-31:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-main-33:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-merged_res-31:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-main-33:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-merged_res-31:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.loginorsignup.app-main-33:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    }
+]
